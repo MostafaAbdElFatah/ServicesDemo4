@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mostafaabdel_fatah.servicesdemo4.MainActivity">
+
+    <TextView
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="Bound Service using Messenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Bound Service"
+        android:onClick="BindService_btnClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Say Hello"
+        android:onClick="SayHello_btnClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Say Hello Again"
+        android:onClick="SayHello_btnClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
